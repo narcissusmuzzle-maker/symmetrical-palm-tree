@@ -1,0 +1,13 @@
+{
+  "name": "u613-tasks2-amazfit",
+  "version": "1.0.5",
+  "private": true,
+  "description": "U613 Задачи 2 (🧩) для Amazfit Bip Max (Zepp OS): очередь задач строками",
+  "scripts": {
+    "build": "zeus build",
+    "test": "node tests/layout.test.mjs && node tests/tasks.test.mjs && node --import ./tests/register.mjs tests/page.test.mjs"
+  },
+  "dependencies": {
+    "@zeppos/zml": "^0.0.39"
+  }
+}

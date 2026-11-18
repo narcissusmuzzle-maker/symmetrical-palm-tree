@@ -1,0 +1,55 @@
+{
+  "configVersion": "v3",
+  "app": {
+    "appId": 1061365,
+    "appName": "U613Tasks2",
+    "appType": "app",
+    "version": {
+      "code": 6,
+      "name": "1.0.5"
+    },
+    "icon": "icon.png",
+    "vender": "luv613",
+    "description": "Очередь задач из приложения LuvU613 (строки)"
+  },
+  "permissions": [
+    "device:os.local_storage"
+  ],
+  "runtime": {
+    "apiVersion": {
+      "compatible": "3.6",
+      "target": "3.6",
+      "minVersion": "3.6"
+    }
+  },
+  "targets": {
+    "default": {
+      "module": {
+        "page": {
+          "pages": [
+            "page/index"
+          ]
+        },
+        "app-side": {
+          "path": "app-side/index"
+        }
+      },
+      "platforms": [
+        {
+          "st": "s",
+          "sr": "w432"
+        }
+      ],
+      "designWidth": 432
+    }
+  },
+  "i18n": {
+    "en-US": {
+      "appName": "Tasks 2"
+    },
+    "ru-RU": {
+      "appName": "Tasks 2"
+    }
+  },
+  "defaultLanguage": "en-US"
+}
